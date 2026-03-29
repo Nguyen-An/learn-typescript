@@ -1,0 +1,26 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "Học TypeScript từ cơ bản đến nâng cao",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "lesson:01": "ts-node src/01-type-system/index.ts",
+    "lesson:02": "ts-node src/02-advanced-types/index.ts",
+    "lesson:03": "ts-node src/03-functions-objects/index.ts",
+    "lesson:04": "ts-node src/04-modules-config/index.ts",
+    "lesson:05": "ts-node src/05-api/index.ts",
+    "lesson:06": "ts-node src/06-utility-types/index.ts",
+    "lesson:07": "ts-node src/07-advanced/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "@types/axios": "^0.14.0"
+  }
+}
